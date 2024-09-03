@@ -1,0 +1,108 @@
+.reqsContainer{
+    display:block;
+    position:absolute;
+    padding-left:5%;
+    padding-top:5%;
+    margin: 0;
+    top:0;
+    left:0;
+    bottom:0;
+    width:33vw;
+
+}
+.reqsTitle{
+    width:100%;
+    display:block;
+    font-size: 2em;
+    padding-top: 2%;
+    padding-left: 5%;
+    font-family: 'shrikhand', serif;
+    color: #005ae0;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.reqsEnter{
+    padding-top: 5%;
+    padding-left: 5%;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+/* Hide the browser's default checkbox */
+.reqsEnter input[type="checkbox"]{
+    cursor: pointer;
+    transform: scale(1.25);
+    margin-right: 1em;
+}
+.reqsEnter input[type="text"]{
+    cursor: pointer;
+    transform: scale(1.25);
+    margin-right: 1em;
+    margin-left: 5%;
+    justify-self: center;
+}
+.rightSide{
+    width:65vw;
+    bottom:0;
+    top:0;
+    right:0;
+    display:block;
+    position:absolute;
+}
+.topWord{
+    font-family: 'Shrikhand';
+    font-size: 6em;
+    color:#005ae0;
+    margin-left:10%;
+    margin-top:10%;
+}
+.bottomWord{
+    font-family: 'Shrikhand';
+    font-size: 6em;
+    color:#005ae0;
+    margin-left:20%;
+}
+.buttonrow{
+    position:absolute;
+    width:100%;
+    bottom:0;
+    padding-bottom:15%;
+    display:flex;
+    justify-content:space-around;
+
+}
+.passwordDisplay{
+    display:block;
+    font-size: 2em;
+    font-family: serif;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:5%;
+    text-align: center;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#generatedPass{
+    font-size: 2em;
+    color:black;
+}
+.submitButton{
+    transform: scale(2);
+    background-color: #005ae0;
+    border-color:#005ae0;
+    border-radius: 12px;
+    color:white;
+    font-family: "Shrikhand",serif;
+    margin-left:20%;
+}
+.buttonrow button{
+    transform: scale(3);
+    background-color: #005ae0;
+    border-color:#005ae0;
+    border-radius: 12px;
+    color:white;
+    font-family: "Shrikhand",serif;
+}
